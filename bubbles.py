@@ -10,7 +10,10 @@ ser = serial.Serial('/dev/ttyACM0', 9600)
 LED = 22
 
 # Twitter application authentication
+<<<<<<< HEAD
 # replace with your credentials
+=======
+>>>>>>> 5dd13b64122d08e69a1f96edb81252fb6f54cf38
 APP_KEY = ''
 APP_SECRET = ''
 OAUTH_TOKEN = ''
