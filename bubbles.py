@@ -10,10 +10,11 @@ ser = serial.Serial('/dev/ttyACM0', 9600)
 LED = 22
 
 # Twitter application authentication
-APP_KEY = 'w7ayHY159gIzVBqgWnDbWI60x'
-APP_SECRET = 'OoUwFZz6rR2PLlUUHZweWCjezm61wJJb9DJXlMkJN8YC7E1GIa'
-OAUTH_TOKEN = '2835817897-JrMiN9yIjDuZ302gHiXHBESnHoibtZgW4GqLkje'
-OAUTH_TOKEN_SECRET = '2uvpLHlXcOHMXfrknfif5wOJzDApNcwgmIpNz4AYwXQfu'
+# replace with your credentials
+APP_KEY = ''
+APP_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 # Setup callbacks from Twython Streamer
 class BlinkyStreamer(TwythonStreamer):
